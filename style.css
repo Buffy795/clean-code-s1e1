@@ -46,11 +46,6 @@ ul {
   display: flex;
 }
 
-/*input,
-button {
-  outline: none;
-}*/
-
 .btn {
   background: none;
   border: 0px;
@@ -116,10 +111,6 @@ button {
   vertical-align: middle;
 }
 
-/*li > * {
-  vertical-align: middle;
-}*/
-
 .task__checkbox {
   margin: 0 10px;
 }
@@ -155,15 +146,6 @@ button {
 .task__input {
   display: none;
 }
-
-/*.task-edit__input {
-  display:inline-block;
-  width: 224px;
-}
-
-.task-edit__label {
-  display: none;
-}*/
 
 .task-edit > .task__label {
   display: none;
