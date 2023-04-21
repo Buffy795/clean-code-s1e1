@@ -36,7 +36,7 @@ ul {
 }
 
 .task__label,
-.task-input {
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -76,7 +76,8 @@ button {
   text-transform: uppercase;
 }
 
-.task-input {
+.add-block__task,
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +101,7 @@ button {
 }
 
 .add-block__task {
-  width: 318px;
+  flex-grow: 1;
 }
 
 /* Task list */
@@ -155,13 +156,22 @@ button {
   display: none;
 }
 
-.task-edit__input {
+/*.task-edit__input {
   display:inline-block;
   width: 224px;
 }
 
 .task-edit__label {
   display: none;
+}*/
+
+.task-edit > .task__label {
+  display: none;
+}
+
+.task-edit > .task__input {
+  display:inline-block;
+  width: 224px;
 }
 
 @media (max-width:768px) {
